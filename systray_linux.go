@@ -1,8 +1,7 @@
 package systray
 
 /*
-#cgo darwin CFLAGS: -DDARWIN -x objective-c -fobjc-arc
-#cgo darwin LDFLAGS: -framework Cocoa -framework WebKit
+#cgo linux pkg-config: gtk+-3.0 appindicator3-0.1 x11
 
 #include "systray.h"
 */

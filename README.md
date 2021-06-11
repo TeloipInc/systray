@@ -28,14 +28,14 @@ func onExit() {
 }
 ```
 
-See [full API](https://pkg.go.dev/github.com/getlantern/systray?tab=doc) as well as [CHANGELOG](https://github.com/getlantern/systray/tree/master/CHANGELOG.md).
+See [full API](https://pkg.go.dev/github.com/TeloipInc/systray?tab=doc) as well as [CHANGELOG](https://github.com/TeloipInc/systray/tree/master/CHANGELOG.md).
 
 ## Try the example app!
 
 Have go v1.12+ or higher installed? Here's an example to get started on macOS:
 
 ```sh
-git clone https://github.com/getlantern/systray
+git clone https://github.com/TeloipInc/systray
 cd example
 env GO111MODULE=on go build
 ./example
@@ -52,7 +52,7 @@ The following text will then appear on the console:
 
 ```sh
 go: finding github.com/skratchdot/open-golang latest
-go: finding github.com/getlantern/systray latest
+go: finding github.com/TeloipInc/systray latest
 go: finding github.com/getlantern/golog latest
 ```
 
@@ -68,10 +68,10 @@ The code under `webview_example` is to demostrate how it can co-exist with other
 
 ### Linux
 
-* Building apps requires gcc as well as the `gtk3` and `libappindicator3` development headers to be installed. For Debian or Ubuntu, you may install these using:
+* Building apps requires gcc as well as the `gtk3`, `x11` and `libappindicator3` development headers to be installed. For Debian or Ubuntu, you may install these using:
 
 ```sh
-sudo apt-get install gcc libgtk-3-dev libappindicator3-dev
+sudo apt-get install gcc libgtk-3-dev libappindicator3-dev libx11-dev
 ```
 
 On Linux Mint, `libxapp-dev` is also required .
