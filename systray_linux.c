@@ -2,7 +2,7 @@
 #include <string.h>
 #include <errno.h>
 #include <limits.h>
-#include <libappindicator/app-indicator.h>
+#include <libayatana-appindicator/app-indicator.h>
 #include "systray.h"
 #include <X11/Xlib.h>
 

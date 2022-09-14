@@ -1,7 +1,7 @@
 package systray
 
 /*
-#cgo linux pkg-config: gtk+-3.0 appindicator3-0.1 x11
+#cgo linux pkg-config: gtk+-3.0 ayatana-appindicator3-0.1 x11
 
 #include "systray.h"
 */
